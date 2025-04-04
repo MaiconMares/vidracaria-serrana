@@ -52,6 +52,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  user-select: none;
 }
 
 a {
@@ -1836,4 +1837,17 @@ section,
 .transition-hover:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bg-teste {
+  border: 2px solid #0c4ffe;
+  background-color: #020a1d;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+img {
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
 }
