@@ -1839,15 +1839,35 @@ section,
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.bg-teste {
-  border: 2px solid #0c4ffe;
-  background-color: #020a1d;
-  padding: 4px;
-  border-radius: 5px;
-}
-
 img {
   pointer-events: none;
   user-select: none;
   -webkit-user-drag: none;
+}
+
+.logo-img {
+  height: 60px;
+}
+
+.site-title {
+  font-weight: bold;
+  font-size: 1.3rem; /* título grande no desktop */
+  color: #000; /* ajusta a cor conforme quiser */
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    height: 50px; /* menor no celular */
+  }
+
+  .site-title {
+    font-size: 1.0rem; /* menor no celular */
+  }
+}
+
+.sitename {
+  background-color: #0c4ffe;
+  border: solid #6994ff 1px;
+  border-radius: 5px;
+  padding: 0px 15px;
 }
