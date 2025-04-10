@@ -341,7 +341,7 @@ h6 {
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
     color: var(--nav-color);
-    font-size: 28px;
+    font-size: 38px;
     line-height: 0;
     margin-right: 10px;
     cursor: pointer;
@@ -374,7 +374,7 @@ h6 {
     color: var(--nav-dropdown-color);
     padding: 10px 20px;
     font-family: var(--nav-font);
-    font-size: 17px;
+    font-size: 27px;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -1846,7 +1846,7 @@ img {
 }
 
 .logo-img {
-  height: 60px;
+  height: 70px;
 }
 
 .site-title {
@@ -1857,11 +1857,11 @@ img {
 
 @media (max-width: 768px) {
   .logo-img {
-    height: 50px; /* menor no celular */
+    height: 70px; /* menor no celular */
   }
 
   .site-title {
-    font-size: 1.0rem; /* menor no celular */
+    font-size: 1.3rem; /* menor no celular */
   }
 }
 
@@ -1870,4 +1870,9 @@ img {
   border: solid #6994ff 1px;
   border-radius: 5px;
   padding: 0px 15px;
+}
+
+/* logo do zap ao lado da logo do site */
+.f001 {
+  border: white solid 1px;
 }
